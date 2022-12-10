@@ -1,0 +1,181 @@
+.container{
+    position: relative;
+    max-width: 900px;
+    min-height: 1000px;
+    margin: auto;
+    background-color: rgb(22, 22, 22);
+    display: grid;
+    grid-template-columns:1fr 2fr ;
+    
+    
+}
+.container .left_side{
+    position: relative;
+    background-color: #353535;
+    padding-right: 50px;  
+      
+}
+.container .right_side{
+    position: relative;
+    background-color: white;
+    padding-right: 30px;
+    max-width: 100%;
+}
+
+/*La partie left-side ou gauche du body*/
+
+.imgBx{
+    position: relative;
+    width: 240px;
+    height: 250px;
+    overflow: hidden;
+    padding-top: 30px;
+    padding-left: 55px;
+    padding-right: 0px;
+}
+.adresse ul li{
+    position: relative;
+    list-style-type: none;
+    margin: 8px ;
+    padding-left: 0px;
+    color: white;
+}
+.icon{
+    color:#FFFFFF;
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+}
+/* les titre du page */
+.title {
+    padding-top: 5px;
+    color:#000000;
+    text-transform: uppercase;
+    font-weight: 600px;
+    letter-spacing: 1px;
+    background-color: white;
+    border-radius: 0px 20px 20px 0px;
+    margin: 0px;)
+    padding-right: 30px;
+    padding-left: 0px;
+    padding-inline: 15px;
+    
+}
+span{
+    color: #FFFFFF;
+}
+
+ul li{
+    color: #FFFFFF;
+    padding: 5px;
+    margin-top: 9px;
+    padding: 0px;
+    padding-left: 0px;
+}
+ul{
+    padding: 20px;
+}
+#pp{
+    padding-left: 40px;
+}
+
+
+
+/*La partie right_side ou droite*/
+
+
+h1 {
+    text-transform: uppercase;
+    padding-left: 15px;
+    
+    padding-top: 20px;
+    color: #383838;
+}
+#ttp{
+    color: #000000;
+    font-weight: bold;
+    padding-left: 0px;
+    
+}
+.intro{
+    padding-left: 20px;
+    
+    
+    margin-bottom: 30px;
+    min-width: 50%;
+    max-width:100%;
+   
+}
+.section1{
+    
+    padding: 5px;
+    padding-left: 10px;
+}
+.min-title{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0px;
+    color: #000000;
+}
+.section2{
+    padding-left: 10px;
+}
+.min-title-form{
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.date-form{
+    color: #000000;
+    font-weight: bold;
+}
+#title2{
+    text-transform: uppercase;
+    background-color: #353535;
+    border-radius: 0px 20px 20px 0px;
+    padding-left: 0px;
+    color: white;
+    padding-right: 100px;
+    padding-left: 0px;
+    padding-inline: 30px;
+    margin-bottom: 30px;
+    min-width: 300px;
+    max-width: 83%;
+}
+body{
+    background-color: black;
+}
+@media only screen and (max-width:960px){
+    .container{
+        display: grid;
+        grid-template-columns: repeat(1,2fr);
+        margin: 0px;
+        padding: 0px;
+    }
+    .imgBx{
+        position: static;
+        width: auto;
+        padding: 90px;
+        margin: 20px;
+        
+    }
+}
+@media screen and (max-width:990px) and (min-width:1000PX){
+
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        padding: auto;
+    }
+}
+
+@media only screen and (max-width:960px){
+    .title{
+        width: auto;
+    }
+}
+.section1{
+    flex: 1;
+    min-width: 80%;
+    
+}
